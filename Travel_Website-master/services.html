@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with me</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+<header>
+    <h1 id="title">Travel With Me</h1>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="index.html" class="active">Travel With Me 🤓 ➡️</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+
+<main>
+    <section>
+        <h2 id="services">Here are a review of our services that we provide to you especially:</h2> <br>
+        <br>
+    </section>
+    <div class="material-icons">
+        <div class="material-symbols-outlined" style="font-size:50px;">flight_takeoff
+            <span class="tooltip">Flights</span>
+        </div>
+        <div class="material-symbols-outlined" style="font-size:50px;">hotel
+            <span class="tooltip">Hotels</span>
+        </div>
+        <div class="material-symbols-outlined" style="font-size:50px;">local_taxi
+            <span class="tooltip">Rent Cars</span>
+        </div>
+        <div class="material-symbols-outlined" style="font-size:50px;">spa
+            <span class="tooltip">Resorts</span>
+        </div>
+        <div class="material-symbols-outlined" style="font-size:50px;">travel_explore
+            <span class="tooltip">Trips</span>
+        </div>
+    </div>
+</main>
+<a href="contact.html" class="sticky-button">Book Now</a>
+<footer>
+    <p>&copy; 2024 Travel With Me - All Rights Reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
